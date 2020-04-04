@@ -18,11 +18,11 @@
 *.sublime-workspace
 
 # IDE - VSCode
-/Info/vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+/Info/.vscode/*
+/Info/.vscode/settings.json
+/Info/.vscode/tasks.json
+/Info/.vscode/launch.json
+/Info/.vscode/extensions.json
 
 # misc
 /.sass-cache
