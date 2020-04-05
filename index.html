@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <title>Иформация по улице Солнечной</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="page-header">
+        <h3> Информация по улице Солнечной </h3>
+    </div>
+    <div class="panel">
+        <div class="form-group">
+            <div class="form-group">
+                <div class="col-md-8">
+                    <label>Выберите номер участка:</label>
+                </div>
+                <div class="col-md-5">
+                    <select class="form-control" name="numberOfGroundsControl" [(ngModel)]="selectedNumberOfGround" (ngModelChange)="onChange($event)">
+                        <option  *ngFor="let numberOfGround of numbersOfGrounds" [ngValue]="numberOfGround">
+                            {{numberOfGround}}
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Участок</th>
+                    <th>Номер телефона</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let selectedGround of selectedGrounds">
+                    <td>{{selectedGround.number}}</td>
+                    <td>
+                        <nav>
+                            <tr *ngFor="let phoneNumber of selectedGround.phoneNumbers">
+                                {{phoneNumber}}<!-- <td><a (click)="showPhoneNumber(phoneNumber)">{{phoneNumber}}</a></td> -->
+                            </tr>
+                        </nav>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
