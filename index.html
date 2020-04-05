@@ -18,10 +18,7 @@
                 <h5 id="h5"><b>Выберите номер участка:</b></h5>
             </div>
             <div class="col-xs-6 text-left">
-                <select id="select" class="form-control" onchange="onChangeHandler()">
-                    <!-- <option>Все участки</option>
-                    <option>390/391</option>
-                    <option>388</option> -->
+                <select id="select" class="form-control" onchange="onChangeHandler(this.value)">
                 </select>
             </div>
         </div>
@@ -35,14 +32,6 @@
                         </tr>
                     </thead>
                     <tbody id="tbody">
-                        <!-- <tr>
-                            <td>{{selectedGround}}</td>
-                            <td>{{selectedGround.number}}</td>
-                        </tr>
-                        <tr>
-                            <td>{{selectedGround}}</td>
-                            <td>{{selectedGround.number}}</td>
-                        </tr> -->
                     </tbody>
                 </table>
             </div>
