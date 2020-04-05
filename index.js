@@ -5,7 +5,12 @@ window.onload = () =>
     //testData();
     fetch("grounds.json")
         .then(response => response.json())
-        .then(json => fillSelector(json));
+        .then(json => 
+                {
+                    jsonObject = json;
+                    fillSelector(json);
+                }
+            );
 };
 
 function onChangeHandler(groundName)
