@@ -8,7 +8,7 @@ window.onload = () =>
         .then(json => 
                 {
                     jsonObject = json;
-                    fillSelector(json);
+                    fillSelector();
                 }
             );
 };
