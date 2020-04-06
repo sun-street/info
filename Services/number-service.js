@@ -4,9 +4,12 @@ function replaceAt(string, index, replace)
 }
 function processNumber(number)
 {
-    number = replaceAt(number, 7,"*");
-    number = replaceAt(number, 8,"*");
-    number = replaceAt(number, 9,"*");
+    if (number.length >= 9)
+    {
+        number = replaceAt(number, 7,"*");
+        number = replaceAt(number, 8,"*");
+        number = replaceAt(number, 9,"*");
+    }
     
     return number;
 }
