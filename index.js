@@ -2,8 +2,28 @@ var jsonObject;
 
 window.onload = () => 
 {
+    testRemoteData();
+    //
     //testData();
-    fetch("grounds.json")
+    //
+    // fetch("grounds.json")
+    //     .then(response => response.json())
+    //     .then(json => 
+    //             {
+    //                 jsonObject = json;
+    //                 fillSelector();
+    //             }
+    //         );
+};
+
+function onChangeHandler(groundName)
+{
+    fillTable(groundName);
+};
+
+function testRemoteData()
+{
+    fetch("https://sun-street.github.io/grounds.json")
         .then(response => response.json())
         .then(json => 
                 {
@@ -11,12 +31,7 @@ window.onload = () =>
                     fillSelector();
                 }
             );
-};
-
-function onChangeHandler(groundName)
-{
-    fillTable(groundName);
-};
+}
 
 function testData()
 {
