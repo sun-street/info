@@ -1,0 +1,26 @@
+{
+	"groundsList": [
+		{
+			"number": "389",
+			"phoneNumbers": [
+				{
+					"cellNumber": "10",
+					"number": "+7-953-***-45-67"
+				},
+				{
+					"cellNumber": "11",
+					"number": "+7-953-***-57-78"
+				}
+			]
+		},
+		{
+			"number": "390",
+			"phoneNumbers": [
+				{
+					"cellNumber": "15",
+					"number": "+7-953-***-11-22"
+				}
+			]
+		}
+	]
+}
