@@ -12,7 +12,7 @@ function onChangeHandler(groundName)
 
 function initizlizeData()
 {
-    fetch("https://sun-street.github.io/Data/grounds.json")
+    fetch("https://sun-street.github.io/Data/safe-grounds.json")
         .then(response => response.json())
         .then(json => 
                 {
