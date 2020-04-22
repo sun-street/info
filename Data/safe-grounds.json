@@ -10,6 +10,10 @@
 				{
 					"cellNumber": "11",
 					"number": "+7-952-***-26-34"
+				},
+				{
+					"cellNumber": "12",
+					"number": "+7-913-***-15-52"
 				}
 			]
 		},
@@ -48,8 +52,8 @@
 			"number": "381",
 			"phoneNumbers": [
 				{
-					"cellNumber": "30-34",
-					"number": ""
+					"cellNumber": "30",
+					"number": "+7-913-***-03-02"
 				}
 			]
 		},
@@ -152,8 +156,8 @@
 			"number": "392",
 			"phoneNumbers": [
 				{
-					"cellNumber": "70-74",
-					"number": ""
+					"cellNumber": "70",
+					"number": "+7-953-***-14-99"
 				}
 			]
 		},
