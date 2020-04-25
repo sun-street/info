@@ -1,6 +1,15 @@
 {
 	"groundsList": [
 		{
+			"number": "Временный проезд",
+			"phoneNumbers": [
+				{
+					"cellNumber": "5",
+					"number": "+7-952-***-94-03"
+				}
+			]
+		},
+		{
 			"number": "377",
 			"phoneNumbers": [
 				{
