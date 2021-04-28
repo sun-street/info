@@ -70,8 +70,20 @@
 			"number": "382",
 			"phoneNumbers": [
 				{
-					"cellNumber": "35-39",
-					"number": ""
+					"cellNumber": "35",
+					"number": "+7-913-***-67-32"
+				},
+				{
+					"cellNumber": "36",
+					"number": "+7-913-***-67-32"
+				},
+				{
+					"cellNumber": "37",
+					"number": "+7-913-***-65-53"
+				},
+				{
+					"cellNumber": "38",
+					"number": "+7-913-***-09-73"
 				}
 			]
 		},
@@ -259,14 +271,10 @@
 			"phoneNumbers": [
 				{
 					"cellNumber": "95",
-					"number": "+7-913-***-22-63"
-				},
-				{
-					"cellNumber": "96",
 					"number": "+7-924-***-89-50"
 				},
 				{
-					"cellNumber": "97",
+					"cellNumber": "96",
 					"number": "+7-924-***-47-24"
 				}
 			]
