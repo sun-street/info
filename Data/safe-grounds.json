@@ -1,10 +1,19 @@
 {
 	"groundsList": [
 		{
-			"number": "Временный проезд",
+			"number": "Артём(председатель)",
 			"phoneNumbers": [
 				{
 					"cellNumber": "5",
+					"number": "+7-952-***-10-93"
+				}
+			]
+		},
+		{
+			"number": "Евгений(интернет)",
+			"phoneNumbers": [
+				{
+					"cellNumber": "6",
 					"number": "+7-952-***-94-03"
 				}
 			]
